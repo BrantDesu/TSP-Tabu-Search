@@ -1,0 +1,3 @@
+TLL:    0.1*dimension 
+MaxIt:  min(20*dimension or 2000
+time:   600 seg
