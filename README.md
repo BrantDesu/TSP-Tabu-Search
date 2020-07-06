@@ -12,6 +12,6 @@ Consideraciones:
 
       TLLenghtDimensionMultiplier maxIterations maxTime SEEDS
 
-**TLLenghtDimensionMultiplier**: Número que multiplicará a la dimensión de la instancia, el resultado se seteará como el largo de la lista tabú.
-**maxIterations**: Iteraciones fallidas máximas que ejecutará el algoritmo antes de detener la prueba.
-**maxTime**: Tiempo máximo que se ejecutará el algoritmo antes de detener la prueba.
+**TLLenghtDimensionMultiplier**: Número que multiplicará a la dimensión de la instancia, el resultado se seteará como el largo de la lista tabú.  
+**maxIterations**: Iteraciones fallidas máximas que ejecutará el algoritmo antes de detener la prueba.  
+**maxTime**: Tiempo máximo que se ejecutará el algoritmo antes de detener la prueba.  
