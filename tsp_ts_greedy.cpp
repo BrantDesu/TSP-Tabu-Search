@@ -146,7 +146,7 @@ solution tabuSearch(solution solucionInicial, vector<vector<double>> instanceMat
 		else failedIterations++;	
 		end = clock();
 		double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-		if (time_taken >= 600)
+		if (time_taken >= maxTime)
 		{
 			break;
 		}
@@ -295,7 +295,7 @@ int main(int argc, char * argv[])
 	int maxIterations = strtol(argv[2], nullptr, 0);
 	int maxTime = strtol(argv[3], nullptr, 0);
 
-	cout << "multiplier: "<< setprecision(10) << fixed <<TLLenghtMultiplier << endl;
+	
 
 	vector<string> instancesArray = list_dir("Instancias_TSP");
 
